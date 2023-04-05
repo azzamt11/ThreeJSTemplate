@@ -1,0 +1,35 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Akshar";
+  transition: all 0.5s ease;
+}
+body {
+  height: 0;
+  width: 0;
+  overflow-x: hidden;
+} /* fix*/
+.container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 800vh;
+} /* fix*/
+
+#canvas1 {
+  position: fixed;
+  height: 100vh;
+  width: 99vw;
+  z-index: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url("../public/backgroundColor1.jpg");
+  background-size: 100%;
+}
